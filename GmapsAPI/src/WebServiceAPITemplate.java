@@ -13,7 +13,7 @@ public class WebServiceAPITemplate
 	private final static String lon = "151.1957362";
 	private final static String type = "restaurant";
 	private final static String keyword = "mexican";
-	private final static String apiKey = "AIzaSyBpdjZ-yg7VSKh7sGskbxO5EjkAiLebXpU";
+	private final static String apiKey = "APIKey";
 	private final static double dist = 20 * 1609.34;
 	private final static String Url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat + "," + lon + "&radius=" + dist + "&type=" + type + "&keyword=" + keyword + "&key=" + apiKey;
 	
